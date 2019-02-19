@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const DupLink = ({ array }) => (
    <Fragment>{array.map(({
-      to,
-      id,
+      to = null,
+      id = undefined,
       replace = false,
       text = ''
    }) => (
