@@ -1,27 +1,39 @@
 import shortid from 'shortid';
 
 
-export const NavArray = [
+export const NavArrayLink = [
     {
         to: '/Women',
-        text: 'Women',
-        id:shortid.generate()
+        text: '1',
+        id: shortid.generate()
     },
     {
         to: '/Women',
-        text: 'Women',
-        id:shortid.generate()
+        text: '2',
+        id: shortid.generate()
     },
     {
         to: '/Women',
-        text: 'Women',
-        id:shortid.generate()
-    },
-    {
-        to: '/Women',
-        text: 'Women',
-        id:shortid.generate()
+        text: '3',
+        id: shortid.generate()
     },
 
 ]
 
+
+
+export const NavArrayRoute = [
+    {
+        path: '/Women',
+        id: shortid.generate(),
+    },
+    {
+        path: '/Women',
+        id: shortid.generate()
+    },
+    {
+        path: '/Women',
+        id: shortid.generate()
+    },
+
+]

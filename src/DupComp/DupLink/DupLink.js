@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const DupLink = ({ array }) => (
    <Fragment>{array.map(({
-      to = null,
-      id = undefined,
-      replace = false,
-      text = ''
+      to,
+      id,
+      replace,
+      text
    }) => (
          <Link
             to={to}

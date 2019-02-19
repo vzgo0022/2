@@ -1,24 +1,21 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
 import DupLink from '../../DupComp/DupLink';
-import { NavArray } from './NavArray';
+import DupRoute from '../../DupComp/DupRoute';
+import { NavArrayLink, NavArrayRoute } from './NavArray';
 
 
 
-const NavReact= () => {
+const NavReact = () => {
     return (
         <nav >
             <ul >
-                <DupLink array={NavArray} />
+                <DupLink array={NavArrayLink} />
             </ul>
 
             <Switch>
-                <Route exact path="/" />
-                <Route path="/Women" />
-                <Route path="/Man" />
-                <Route path="/Children" />
-                <Route path="/Electronics" />
+               <DupRoute array={NavArrayRoute} />
             </Switch>
         </nav>
     )
