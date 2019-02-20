@@ -3,18 +3,23 @@ import shortid from 'shortid';
 
 export const NavArrayLink = [
     {
-        to: '/Women',
-        text: '1',
+        to: '/',
+        text: 'Foo',
         id: shortid.generate()
     },
     {
-        to: '/Women',
-        text: '2',
+        to: '/male',
+        text: 'male',
         id: shortid.generate()
     },
     {
-        to: '/Women',
-        text: '3',
+        to: '/female',
+        text: 'female',
+        id: shortid.generate()
+    },
+    {
+        to: '/childish',
+        text: 'childish',
         id: shortid.generate()
     },
 
@@ -25,6 +30,7 @@ export const NavArrayLink = [
 export const NavArrayRoute = [
     {
         path: '/',
+        exact: true,
         id: shortid.generate(),
     },
     {

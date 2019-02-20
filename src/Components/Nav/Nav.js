@@ -11,7 +11,7 @@ const NavReact = () => {
     return (
         <nav >
             <ul >
-                <DupLink array={NavArrayLink} />
+              <DupLink array={NavArrayLink} />
             </ul>
 
             <Switch>

@@ -10,10 +10,11 @@ const DupLink = ({ array }) => (
       replace,
       text
    }) => (
-         <Link
-            to={to}
-            key={id}
-            replace={replace}> {text} </Link>)
+         <li key={id}>
+            <Link
+               to={to}
+               replace={replace}>{text}</Link>
+         </li>)
    )}</Fragment>)
 
 

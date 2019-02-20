@@ -15,15 +15,16 @@ const DupNavLink = ({ array }) => (
       isActive,
       text
    }) => (
-         <NavLink
-            key={id}
-            to={to}
-            replace={replace}
-            activeClassName={activeClassName}
-            activeStyle={activeStyle}
-            exact={exact}
-            strict={strict}
-            isActive={isActive} > {text} </NavLink>)
+         <li key={id}>
+            <NavLink
+               to={to}
+               replace={replace}
+               activeClassName={activeClassName}
+               activeStyle={activeStyle}
+               exact={exact}
+               strict={strict}
+               isActive={isActive} >{text}</NavLink>
+         </li>)
    )}</Fragment>)
 
 
