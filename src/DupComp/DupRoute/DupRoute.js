@@ -13,8 +13,7 @@ const DupRoute = ({ array }) => (
         exact,
         strict,
         location,
-        sensitive,
-        text
+        sensitive
     }) => (
             <Route
                 key={id}
@@ -25,7 +24,7 @@ const DupRoute = ({ array }) => (
                 exact={exact}
                 strict={strict}
                 location={location}
-                sensitive={sensitive}/> )
+                sensitive={sensitive} />)
     )}</Fragment>)
 
 

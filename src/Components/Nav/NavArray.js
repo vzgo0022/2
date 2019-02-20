@@ -24,15 +24,19 @@ export const NavArrayLink = [
 
 export const NavArrayRoute = [
     {
-        path: '/Women',
+        path: '/',
         id: shortid.generate(),
     },
     {
-        path: '/Women',
+        path: '/male',
+        id: shortid.generate(),
+    },
+    {
+        path: '/female',
         id: shortid.generate()
     },
     {
-        path: '/Women',
+        path: '/childish',
         id: shortid.generate()
     },
 

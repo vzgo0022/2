@@ -13,8 +13,7 @@ const DupLink = ({ array }) => (
          <Link
             to={to}
             key={id}
-            replace={replace}
-         > {text} </Link>)
+            replace={replace}> {text} </Link>)
    )}</Fragment>)
 
 
